@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>À ma Winnie 🧸🤍</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff0f5, #f8dce8);
+            font-family: Arial, sans-serif;
+            color: #54283b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            background: rgba(255,255,255,0.85);
+            padding: 25px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .photo {
+            width: 100%;
+            max-width: 430px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            font-size: 55px;
+            color: #8b4563;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+            color: #7c5968;
+        }
+
+        button {
+            background: #a95172;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(169,81,114,0.3);
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        #lettre {
+            display: none;
+            margin-top: 30px;
+            background: #fffdf8;
+            padding: 35px;
+            border-radius: 20px;
+            text-align: left;
+            box-shadow: inset 0 0 0 1px #eee0d5;
+        }
+
+        #lettre p {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        #lettre h2 {
+            text-align: center;
+            color: #8b4563;
+            font-family: Georgia, serif;
+            font-size: 30px;
+        }
+
+        .signature {
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 25px;
+            color: #8b4563;
+            margin-top: 30px;
+        }
+
+        .coeur {
+            position: fixed;
+            bottom: -50px;
+            font-size: 25px;
+            animation: monter 7s linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes monter {
+
+            0% {
+                transform: translateY(0);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-110vh);
+                opacity: 0;
+            }
+
+        }
+
+    </style>
+
+    <script src="winnie.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="coeur" style="left:10%;">🤍</div>
+    <div class="coeur" style="left:30%; animation-delay:2s;">♡</div>
+    <div class="coeur" style="left:50%; animation-delay:4s;">🩷</div>
+    <div class="coeur" style="left:70%; animation-delay:1s;">🤍</div>
+    <div class="coeur" style="left:90%; animation-delay:3s;">♡</div>
+
+
+    <div class="container">
+
+        <img src="winnie.jpg" class="photo">
+
+        <h1>À ma Winnie 🧸🤍</h1>
+
+        <div class="subtitle">
+            UN AN DE SOUVENIRS • JOYEUX ANNIVERSAIRE
+        </div>
+
+
+        <button onclick="ouvrirLettre()">
+            💌 Ouvrir la lettre
+        </button>
+
+
+        <div id="lettre">
+
+            <h2>À ma Winnie 🧸🤍</h2>
+
+            <p>
+                Il y a exactement un an, je ne me doutais pas qu’une personne
+                rencontrée lors de l’organisation d’un bal de promo allait
+                prendre une place aussi importante dans ma vie.
+            </p>
+
+            <p>
+                Au début, ce n’était qu’une rencontre, quelques discussions
+                et des préparatifs… puis, sans même que je m’en rende compte,
+                Winnie est devenue ma Winnie.
+            </p>
+
+            <p>
+                Un an déjà… et quelle aventure !
+                Parce qu’il faut quand même être honnête :
+                tu es chiante. Très chiante, même.
+                Tu as parfois un talent incroyable pour me fatiguer,
+                me faire lever les yeux au ciel et tester ma patience.
+                Mais malgré tout ça… je t’aime quand même.
+            </p>
+
+            <p>
+                Tu es aussi une vraie chyenne quand tu t’y mets,
+                avec ton caractère de babiere et tes petites manies
+                impossibles à supporter.
+                Mais bon, je te garde quand même, parce que malgré tes défauts
+                et ton côté parfois complètement insupportable,
+                tu restes une personne exceptionnelle.
+            </p>
+
+            <p>
+                Plus sérieusement, ton anniversaire est l’occasion parfaite
+                pour te dire merci.
+            </p>
+
+            <p>
+                Merci pour tous les moments où tu as été là,
+                pour nos discussions, nos fous rires, nos petites histoires
+                et tous les souvenirs qu’on a déjà créés en seulement un an.
+                Merci d’être entrée dans ma vie de manière aussi inattendue
+                et d’y avoir pris une place si particulière.
+            </p>
+
+            <p>
+                Au fil du temps, j’ai appris à te découvrir avec tes qualités,
+                tes défauts et ton caractère parfois un peu compliqué —
+                oui Winnie, je parle bien de toi, espèce de chyenne —
+                mais surtout avec cette magnifique personne que tu es derrière tout ça.
+            </p>
+
+            <p>
+                Je ne sais pas ce que les prochains mois ni les prochaines
+                années nous réservent, mais j’espère sincèrement qu’on aura
+                encore plein de souvenirs à créer ensemble :
+                des fous rires jusqu’à en avoir mal au ventre,
+                des discussions interminables, des embrouilles pour trois fois rien,
+                des réconciliations et, très certainement,
+                encore beaucoup de moments où tu réussiras à m’énerver.
+            </p>
+
+            <p>
+                Si je devais résumer cette première année en quelques mots,
+                je dirais simplement :
+                je suis tellement heureuse de t’avoir rencontrée.
+            </p>
+
+            <p>
+                Alors, aujourd’hui, je te souhaite un merveilleux anniversaire.
+                🥹🤍 Que cette nouvelle année t’apporte tout ce que ton cœur
+                désire : du bonheur, de la réussite, de belles surprises
+                et des personnes capables de t’aimer et de te valoriser
+                comme tu le mérites.
+            </p>
+
+            <p>
+                Même si je ne te le dis pas toujours,
+                n’oublie jamais que tu comptes énormément pour moi.
+            </p>
+
+            <p>
+                J’espère que notre amitié durera encore très longtemps,
+                parce qu’une année à tes côtés, c’est déjà beaucoup…
+                mais je n’ai clairement pas envie que ça s’arrête là. 🥹❤️
+            </p>
+
+            <p>
+                Joyeux anniversaire, ma Winnie ! 🧸🤍
+            </p>
+
+            <p>
+                Et surtout… ne change pas.
+            </p>
+
+            <p>
+                Enfin… tu peux peut-être améliorer très légèrement
+                ton côté insupportable, ton caractère de babiere
+                et ton énergie de chyenne.
+            </p>
+
+            <div class="signature">
+                Je t’aime fort. 🤍
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
